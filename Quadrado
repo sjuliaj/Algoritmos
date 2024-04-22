@@ -1,0 +1,27 @@
+Algoritmo "Soma dos quadrados"
+
+Var
+a, b, c, soma: real
+
+Inicio
+escreval("Informe o valor de A:")
+leia(a)
+escreval("Informe o valor de B:")
+leia(b)
+escreval("Informe o valor de C:")
+leia(c)
+
+a <-(a * a)
+
+b <- (b * b)
+
+c <- (c * c)
+soma<-0
+soma<-(a + b + c)
+//Não existe uma função específica para elevar ao quadrado em algoritmo
+
+escreval("A soma dos quadrados é:", soma)
+
+
+
+Fimalgoritmo
