@@ -1,0 +1,25 @@
+Algoritmo "Códigos"
+
+Var
+cod: inteiro
+
+Inicio
+escreval("Digite o código para saber o valor do produto: ")
+leia(cod)
+
+escolha cod
+caso 1
+escreval("O valor é 10,00")
+caso 2
+escreval("O valor é 20,00")
+caso 3
+escreval("O valor é 30,00")
+caso 4
+escreval("Produto indisponível")
+outrocaso
+escreval("Código indisponível, consulte a tabela.")
+fimescolha
+
+
+
+Fimalgoritmo
